@@ -1,0 +1,301 @@
+.Header{
+text-align:center;
+height: 60px;
+ width: 100%;
+ font-family: Poppins;
+ color:darkorchid;
+ background-color: lightblue;
+ font-style: italic;
+ }
+a{
+    text-decoration: none;
+}
+#icon{
+    
+    float:left;
+    margin-top: -2%;
+}
+#social
+{
+    float: right;
+
+}
+.slogo{
+    
+    height:40px;
+    width:40px;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.Text{
+    
+    text-align:left;
+    height: 26px;
+    width: 100%;
+    font-size: 18px;
+    background-color: antiquewhite;
+    border: 2px ;
+    font-family: Poppins;
+    color: rgb(33, 153, 153);
+    
+}
+
+   .Display{
+    height: 700;
+    width: 100%;
+    border: 2px green;
+    
+    background-color: antiquewhite;
+}
+
+.Box1{
+    height: 620px;
+    width: 25%;
+    border: 1px solid  blueviolet; 
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.Box1 > p
+{text-align: center;
+font-size:x-large;
+font-family: 'Times New Roman', Times, serif;
+color:chocolate;
+}
+
+.Box2{
+    height: 300px;
+    width: 30%;
+    border: 1px solid black;
+
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}.Box3{
+    height: 300px;
+    width: 30%;
+     border: 1px solid black;
+    float: left;
+    margin-left:2%;
+    margin-top: 1%
+}
+
+.Box4{
+    height: 300px;
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%
+}
+
+.Box5{
+    height: 300px;
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%
+}
+.Box2 > img{
+    border-radius: 10%;
+    box-shadow:inset;
+    box-sizing: border-box;
+    margin-top: 1%;
+    height: 35%;
+    float: left;
+    margin-left: 1%;
+}
+.Box2 > h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:navy ;
+    margin-left: 45%;
+}
+.Box2 > p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkcyan;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.Box3 > img{
+    border-radius: 10%;
+    box-shadow:inset;
+    box-sizing: border-box;
+    margin-top: 1%;
+    height: 32%;
+    float: left;
+    width: 42%;
+    margin-left: 1%;
+}
+.Box3 > h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:navy ;
+    margin-left: 43%;
+}
+.Box3 > p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkcyan;
+    font-size: 20px;
+    margin-left: 1%;
+   
+}
+.Box4 > img{
+    border-radius: 10%;
+    box-shadow:inset;
+    box-sizing: border-box;
+    margin-top: 1%;
+    height: 35%;
+    width:43%;
+    float: left;
+    margin-left: 1%;
+}
+.Box4 > h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:navy ;
+    margin-left: 45%;
+}
+.Box4 > p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkcyan;
+    font-size: 20px;
+    margin-left: 1%;
+}
+.Box5 > img{
+    border-radius: 10%;
+    box-shadow:inset;
+    box-sizing: border-box;
+    margin-top: 1%;
+    height: 35%;
+    width:43%;
+    float: left;
+    margin-left: 1%;
+}
+.Box5 > h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:navy ;
+    margin-left: 45%;
+    
+}
+.Box5 > p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkcyan;
+    font-size: 20px;
+    margin-left: 1%;
+}
+#btn{
+
+    background-color:beige;
+    border-radius: 10%;
+    border-style:inset;
+    padding: 5px 2px;
+    font-family: cursive;
+    font-style:inherit;
+    margin-left: 10px;
+}
+footer{
+    background-color: bisque;
+    clear:both;
+}
+@media screen and (max-width: 1300px){
+    .Box5 > h3{
+    margin-left: 32%}
+}
+
+@media (min-width:1030px) and (max-width:1120px)
+{.Box2 > h3 {
+        
+        margin-left: 52%;
+    }
+}
+@media screen and (max-width:970px)
+{.Box2 > h3, .Box3 > h3, .Box4 > h3, .Box5 > h3 {
+margin-left: 58%;
+    }
+}
+@media screen and (max-width: 790px)
+{.Box2 > h3, .Box3 > h3, .Box4 > h3, .Box5 > h3 {
+    margin-left: 48%;
+}
+}
+@media screen and (max-width:900px)
+{.Box2, .Box3,.Box4,.Box5{
+    
+    width:50%;
+}
+}
+@media screen and (max-width:700px){
+    
+   .Display{
+    height: 1300px;
+    width: 100%;
+    background-color: antiquewhite;
+}}
+@media screen and (max-width:900px){
+    
+    .Display{
+     height: 1300px;
+     width: 100%;
+     background-color: antiquewhite;
+ }
+}
+@media screen and (max-width:700px)
+{
+    .Box5{
+margin-left: 29%;
+}}
+@media screen and (max-width: 1120px)
+{.Box2 > h3, .Box3 > h3, .Box4 > h3, .Box5 > h3 {
+   font-size: 18px;
+}}
+@media screen and (max-width: 700px)
+{.Box2 > h3, .Box3 > h3, .Box4 > h3, .Box5 > h3 {
+   font-size: 18px;
+}
+}
+@media screen and (max-width: 500px)
+{.Box2 > h3, .Box3 > h3, .Box4 > h3, .Box5 > h3 {
+   font-size: 14px;
+}
+@media screen and (max-width: 900px)
+{.Box5 > h3 {
+   width:15%
+}
+}
+}
+@media screen and (max-width: 700px)
+{.Box2 > p, .Box3 > p, .Box4 > p, .Box5 > p {
+   font-size: 15px;
+   margin-top: 5%;
+}
+}
+@media screen and (max-width: 550px)
+{.Box2 > p{
+        font-size: 15px;
+        margin-top: -2%;
+    }
+}
+
+@media screen and (max-width: 650px)
+{.Box1 {
+    width: 37%;
+}}
+@media screen and (max-width: 550px){
+.Box5 {
+    margin-left: 41%;
+}}
+@media screen and (max-width: 650px){
+.Box5 {
+    margin-left: 41%;
+}}
+@media screen and (max-width: 900px){
+    .Box5 {
+        margin-left: 29%;
+    }}
+    
+    @media screen and (max-width: 600px){
+        .Box5{
+            margin-left: 41% ;
+        }
+    }

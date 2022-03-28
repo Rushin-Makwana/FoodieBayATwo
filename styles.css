@@ -1,0 +1,290 @@
+.Header{
+/* height: 60px; */
+width: 100%;
+font-style: italic;
+height: 500px;
+width:100%;
+background-image: url('images/bg1.jpg');
+background-repeat: no-repeat;
+/* background-size: cover; */
+background-size: 100% 580px;
+margin:auto  
+
+}
+.name{
+color:aliceblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 45px;
+margin-left: 43%;
+margin-top: 11%;
+position: absolute;
+font-weight: bolder;
+}
+.Add{
+    font-size: 25px;
+    margin-left: 58%;
+    color: white;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.social1{
+    font-size: 25px;
+    margin-left: 78%;
+    color: white;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.social2{
+    font-size: 25px;
+    margin-left: 88%;
+    color: white;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    
+}
+#nav_a{
+    color: white;
+}
+
+.navbar{
+    top:0;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+}
+
+.navbar-brand{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.nav>li>a{
+    font-size: 17px;
+}
+.logo{
+    height: 134px;
+    width: 134px;
+    background-color: rgb(245 249 252 / 80%);
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 1%;
+    border-radius: 50%;
+    position: absolute;
+    animation: revolve 20s;
+ }
+
+ @keyframes revolve{
+    0% { transform: rotate(30deg)}
+    
+    25% { transform: rotate(90deg)}
+    
+    50% { transform: rotate(180deg)}
+    
+    75% { transform: rotate(270deg)}
+    100% { transform: rotate(360deg)}
+}
+ .logo > span{
+    margin-left: 18%;
+    margin-top: 7%;
+    position: absolute;
+    font-size: 88px;
+} 
+.Heading{
+    font-size: 36px;
+    margin-left: 26%;
+    margin-top: 16%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+    position: absolute;
+    font-weight: bold;
+    color: #f4fbfdf7;
+    
+}
+.dropdown{
+    height: 35px;
+    width: 40%;
+    margin-left: 32.5%;
+    margin-top: 20%;
+    position: absolute;
+}
+select{
+    height: 35px;
+    width: 45%px;
+    font-size: 14px;
+    text-align: center;
+
+}
+.restSelect{
+    margin-left: 48%;
+    width: 60%;
+}
+
+#searchIcon{
+    position:absolute;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    size: 900px;
+
+}
+.quickSearch{
+    height: 500px;
+    width: 85%;
+    margin-left: 8%;
+    font-size: 30px;
+    color:darkslategray;
+}
+.quickSearchHeading{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.quickSubHeading
+{   margin-left: 2%; 
+    font-size: 18px;
+    color:dimgray;
+}
+.tileContainer{
+    height: 165px;
+    width: 30%;
+    display: inline-block;
+    box-shadow: 10px 20px 10px gray;
+    margin-left: 2%;
+    margin-top: 2%;
+    animation: dance 10s infinite;
+}
+@keyframes dance{
+    0% { transform: rotate(5deg)}
+    
+    25% { transform: rotate(0deg)}
+    
+    50% { transform: rotate(-5deg)}
+    
+    75% { transform: rotate(0deg)}
+    100% { transform: rotate(5deg)}
+}
+.tileContainer:hover{
+    transform: translate(3px, 3px);
+    transform: scale(1.2)
+    /* transform: rotate(9deg) */
+}
+.tileComponent1{
+    height:100%;
+    width: 50%;
+    float: left;
+}
+.tileComponent1 > img{
+    height: 165px;
+    width:100%;   
+
+}
+.tileComponent2{
+    height:100%;
+    width: 50%;
+    float: left;
+}
+
+.tileHeading {
+    margin-left: 3%;
+    margin-top: 10%;
+    color:darkslategray;
+}
+
+.tileHeading > a {
+    text-decoration: none;
+    color:darkslategray;
+}
+
+.tileSubHeading{
+    color:black;
+    font-size: 15px;
+    margin-left: 3%;
+}
+.panelStlye{
+    margin-top: 6%;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.Footer{
+    font-size: 1.3rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    margin-top: 2.3rem;
+   
+}
+.FooterText{
+    margin-left: 7%;
+    text-align: center;
+}
+@media screen and (max-width:970px)
+{.tileContainer {
+    margin-left: 9%;
+width: 41%;
+    }
+}
+@media screen and (max-width:555px)
+{.tileContainer {
+    margin-left: 19%;
+width: 60%;
+ }
+}
+@media screen and (max-width:933)
+{.Heading {
+    font-size:25px;
+ }
+}
+@media screen and (max-width:979)
+{
+.dropdown{
+        margin-left: 26.5%;
+    margin-top: 26%;
+    }
+}
+.media-carousel{
+    margin: 10px;
+    padding: 60px;
+    background-color: none;
+  }
+
+  .left.carousel-control{
+      margin-top: 100px;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      background-color: black;
+      color: white;
+      border: 2px solid black;
+  }
+
+  .right.carousel-control{
+    margin-top: 100px;
+    /* margin-left: 15px; */
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.carousel-inner{
+    margin-left: 10px;
+}
+
+.fnSize{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 17px;
+}
+
+h5{
+    font-size: 22px !important;
+}
+
+.media-carousel img
+{
+  width: 250px;
+  height: 150px
+}

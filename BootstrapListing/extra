@@ -1,0 +1,21 @@
+block - start with a new line
+Consume whole width of screen
+p, h1h6, div
+
+inline-start in same line
+Consume only required space
+a span img
+
+float: left - takes the next element on the left
+May have different size 
+
+display: inline-block - to make everything in one row.
+Every div must have same width,height and contet size.
+
+fontawesome.com for icons.
+
+Priorities:
+INLINE> styletag> stylesheet
+For id and class: id> class
+for two id/class based on their occurences.
+if id1 is followed by id2, id2 gets priority
