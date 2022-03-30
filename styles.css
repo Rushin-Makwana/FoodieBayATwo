@@ -1,12 +1,11 @@
 .Header{
-/* height: 60px; */
+
 width: 100%;
 font-style: italic;
 height: 500px;
 width:100%;
 background-image: url('images/bg1.jpg');
 background-repeat: no-repeat;
-/* background-size: cover; */
 background-size: 100% 580px;
 margin:auto  
 
@@ -219,6 +218,16 @@ select{
     margin-left: 7%;
     text-align: center;
 }
+
+@media (min-width:601px) and (max-width:970px)
+{.logo {
+    height: 96px;
+    width: 100px;
+    }
+    .logo>span{
+        font-size: 65px;
+    }
+}
 @media screen and (max-width:970px)
 {.tileContainer {
     margin-left: 9%;
@@ -231,18 +240,59 @@ width: 41%;
 width: 60%;
  }
 }
-@media screen and (max-width:933)
+@media screen and (max-width:933px)
 {.Heading {
     font-size:25px;
  }
 }
-@media screen and (max-width:979)
+@media screen and (max-width:979px)
 {
 .dropdown{
         margin-left: 26.5%;
     margin-top: 26%;
     }
 }
+@media screen and (max-width:600px)
+{.Heading{
+        font-size: 16px;
+    margin-left: 16%;
+    margin-top: 35%;}
+}
+@media screen and (max-width:600px)
+{.name{
+    font-size: 39px;
+    margin-left: 31%;
+    margin-top: 26%;
+
+}}
+@media screen and (max-width:600px)
+{ .dropdown{
+margin-left: 26%;
+    margin-top: 44%;
+}}
+@media (min-width: 1000px) and (max-width:1200px)
+{  .dropdown{
+
+    margin-left: 31.5%;
+    margin-top: 21%;
+}}
+@media (min-width: 700px) and (max-width:999px)
+{.dropdown{
+margin-left: 26.5%;
+margin-top: 29%;
+}}
+@media (min-width: 701px) and (max-width:1100px)
+{.name{
+      font-size: 30px;
+    margin-left: 39%;
+    margin-top: 11%;
+}
+}
+@media (min-width:601px) and (max-width:1100x)
+{.Heading{
+margin-left: 15%;
+    margin-top: 25%;
+}}
 .media-carousel{
     margin: 10px;
     padding: 60px;
