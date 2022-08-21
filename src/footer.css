@@ -1,0 +1,46 @@
+#footer{
+    height:100px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#f5f5f5;
+    display:inline-block;
+}
+
+/* #footText{
+    text-align: center;
+} */
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
+}
+#social{
+    /* float: right;  */
+    margin-right: 0%;
+    margin-top:1%;
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+.Footer{
+    font-size: 1.3rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    margin-top: 2.3rem;
+   
+}
+.FooterText{
+    margin-left: 17%;
+    text-align: center;
+    margin-top:20%;
+}
